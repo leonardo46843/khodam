@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(0, 0%, 100%);
+    background-image: url(asset/images/Tiger-swim-face-water-droplets_1920x1080.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    padding: 5rem;
+    text-align: center;
+    background-color: rgba(16, 6, 0, 0.5);
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin: .5rem;
+    padding: .5rem;
+}
+
+label {
+    font-size: 1.5rem;
+}
+
+input {
+    width: calc(100% - 1.3rem);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+button {
+    padding: 1.1rem;
+    background-color: #0e0a02;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.3rem;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    transition: background .3s ease, transform .2s;
+}
+
+button:hover {
+    background-color: #0b0700be;
+    transform: scale(1.05);
+}
+
+#result {
+    margin: 1.25rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-shadow: 0 0 1.5rem black;
+}
+
+span {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 140, 0);
+}
